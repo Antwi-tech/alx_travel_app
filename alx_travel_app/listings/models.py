@@ -24,3 +24,8 @@ class Listing(models.Model):
 
     # Timestamp automatically set on creation.  Use this for ordering queries.
     created_at = models.DateTimeField(auto_now_add=True)
+
+
+ def __str__(self) -> str:
+        """Human‑readable representation in Django admin and shell."""
+        return self.title
