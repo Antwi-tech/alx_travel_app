@@ -26,6 +26,6 @@ class Listing(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
 
- def __str__(self) -> str:
+def __str__(self) -> str:
         """Human‑readable representation in Django admin and shell."""
         return self.title
