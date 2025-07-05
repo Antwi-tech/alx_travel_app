@@ -1,3 +1,13 @@
+"""
+(only the new / changed blocks are shown; leave the rest as generated)
+
+
+
+# settings.py (excerpt)
+
+# ────── CORS ───────────────────────────────────────────────────────────
+# Allow *any* origin while prototyping.  Lock this down before production.
+"""
 import os
 import environ
 from pathlib import Path
