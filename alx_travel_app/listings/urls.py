@@ -9,5 +9,5 @@ from .views import ListingListCreateView
 
 urlpatterns = [
     # /api/listings/
-    path("listings/", ListingListCreateView.as_view(), name="listing-list-create"),
+    path("listings/", ListingListCreateView.as_view(), name="listing-list-create")
 ]
