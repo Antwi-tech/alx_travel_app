@@ -8,7 +8,7 @@
 # ────── CORS ───────────────────────────────────────────────────────────
 # Allow *any* origin while prototyping.  Lock this down before production.
 """
-import os
+
 import environ
 from pathlib import Path
 
